@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SummarEase</title>
+    <link rel="stylesheet" href="stylesheet.css">   
+  </head>
+  <body>
+    <h1>SummarEase</h1>
+    <p> SummarEase is a cutting-edge AI text summarizer designed to distill complex information into concise, easy-to-understand summaries. Whether you're a student, professional, or avid reader, SummarEase helps you save time by providing key insights from lengthy documents with remarkable accuracy. Harness the power of AI to enhance your productivity and make informed decisions effortlessly </p>
+    <p> Simply paste your text into the text area below and click the "Submit" button. </p>
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Please enter text to be summarized. The text should be at least 200 characters long and can be up to 100,000 characters.")" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+      <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
